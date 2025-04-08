@@ -1,0 +1,234 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "What's up?", "How are you?"],
+      "responses": [
+        "Hey there! 👋 How can I assist you today?",
+        "Hello! Need help with something college-related?",
+        "Hi! Ask me anything about admissions, placements, internships, and more."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you", "Talk to you later", "Catch you later"],
+      "responses": [
+        "Goodbye! Feel free to reach out anytime.",
+        "Take care! I’m always here to help.",
+        "See you soon, and good luck!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Thanks a lot", "Thank you so much", "Appreciate it"],
+      "responses": ["You're welcome!", "Happy to help!", "No problem at all! 😊"]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "What is the fee structure?",
+        "How much are the fees?",
+        "Fees for BTech courses?",
+        "Postgraduate fee details?",
+        "What is the fee for CSE?",
+        "Tell me fee for ECE or Mech",
+        "Branch wise fees?",
+        "Is hostel fee included?",
+        "How much is the tuition fee?",
+        "Fee per semester?",
+        "What’s the total cost for four years?",
+        "Any extra charges apart from tuition?",
+        "What about management quota fees?",
+        "Fees for convener quota?",
+        "Is transport fee extra?",
+        "Tell me hostel charges"
+      ],
+      "responses": [
+        "📚 **Fee Structure at NSAKCET:**\n\n👨‍🎓 *Undergraduate (B.Tech)*: ₹73,000 per year\n🎓 *Postgraduate (M.Tech)*: ₹50,000 per year\n\n🏠 *Hostel Fee:* ₹30,000 - ₹35,000 per year (includes accommodation and mess)\n🚌 *Transport Fee:* ₹8,000 - ₹12,000 per year depending on distance\n\n📌 *Note:* Category-wise fees vary:\n- **Convener Quota:** As per Telangana State Government norms\n- **Management Quota:** Slightly higher, based on merit/counselling\n\n🔗 Contact admin for detailed breakdown: https://nsakcet.ac.in/admissions/"
+      ]
+    },
+    {
+      "tag": "placements",
+      "patterns": [
+        "What companies visit for placements?",
+        "How are the placements at the college?",
+        "Do students get placed after graduation?",
+        "Tell me about placement opportunities",
+        "What’s the placement record like?",
+        "Which companies come for hiring?"
+      ],
+      "responses": [
+        "The college has a strong placement cell. Companies like Wipro, TCS, Infosys, Capgemini, and Tech Mahindra regularly visit for campus recruitment. You can find more on: https://nsakcet.ac.in/training-placement/"
+      ]
+    },
+    {
+      "tag": "internships",
+      "patterns": [
+        "Do students get internships?",
+        "What about internships during college?",
+        "Are there any internship opportunities?",
+        "Does the college help with internships?",
+        "Can I get an internship through college?"
+      ],
+      "responses": [
+        "Yes! The college collaborates with industry partners to offer internships for both UG and PG students, especially in tech and management domains. The Training & Placement Cell can help you find the right fit."
+      ]
+    },
+    {
+      "tag": "student_life",
+      "patterns": [
+        "What's student life like?",
+        "How's the college atmosphere?",
+        "Are there clubs or events?",
+        "Is the college fun?",
+        "What can students expect on campus?"
+      ],
+      "responses": [
+        "Student life at NSAKCET is vibrant! We have clubs like Epoch (AI/ML), CyberElites (Cybersecurity), IEEE, IEOM, and more. Annual events like Zauq-e-Nawab and technical fests keep the campus buzzing."
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "What facilities are available?",
+        "Is there Wi-Fi?",
+        "Are there labs and a library?",
+        "What are the campus amenities?",
+        "Tell me about college infrastructure"
+      ],
+      "responses": [
+        "Yes! The campus has high-speed Wi-Fi, modern computer labs, departmental labs, and a rich library. The infrastructure supports both academic and extracurricular activities."
+      ]
+    },
+    {
+      "tag": "clubs",
+      "patterns": [
+        "Are there student clubs?",
+        "Any coding clubs or tech societies?",
+        "What clubs are in the college?",
+        "What student communities are there?"
+      ],
+      "responses": [
+        "We have tech clubs like Epoch (AI/ML), CyberElites (Cybersecurity), IEEE, and IEOM. These clubs host workshops, contests, and projects year-round."
+      ]
+    },
+    {
+      "tag": "cultural_fest",
+      "patterns": [
+        "Does the college have a fest?",
+        "Tell me about cultural or tech fests",
+        "What events are conducted?",
+        "Is there an annual fest?"
+      ],
+      "responses": [
+        "Yes! Zauq-e-Nawab is our grand cultural fest held every January. We also host technical symposiums, hackathons, and department-level events."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where is the college located?",
+        "College address?",
+        "Location of the college?"
+      ],
+      "responses": [
+        "The college is at: #16-4-1, Subedar Ameer Ali Khan Road, New Malakpet, Hyderabad – 500024. Phone: +91 9849650796, +91 9885360757, +91 9848058830, or 040-24561118. Email: info@nsakcet.ac.in"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How to contact the college?",
+        "Phone number?",
+        "Email address of the college?",
+        "Help me with contact info"
+      ],
+      "responses": [
+        "Call: +91 9849650796 / +91 9885360757 / +91 9848058830 / 040-24561118. Email: info@nsakcet.ac.in / nsakcet@gmail.com"
+      ]
+    },
+    {
+      "tag": "admission_process",
+      "patterns": [
+        "How to apply for UG?",
+        "UG admission procedure?",
+        "Steps to apply for undergraduate",
+        "What is the admission process?"
+      ],
+      "responses": [
+        "The UG admission process is outlined here: https://nsakcet.ac.in/ug-department/. It includes application form, eligibility, and counselling details."
+      ]
+    },
+    {
+      "tag": "pg_admission",
+      "patterns": [
+        "How to apply for PG?",
+        "PG admission details?",
+        "Steps to apply for postgraduate courses?"
+      ],
+      "responses": [
+        "The PG admission process is described here: https://nsakcet.ac.in/pg-department/"
+      ]
+    },
+    {
+      "tag": "eligibility",
+      "patterns": [
+        "What is the eligibility for admission?",
+        "Who can apply?",
+        "Minimum marks or qualification needed?",
+        "Can diploma holders apply?"
+      ],
+      "responses": [
+        "Eligibility criteria differ by program. UG: 10+2 with Physics, Math, and Chemistry. PG: Relevant Bachelor's degree. See: https://nsakcet.ac.in/ug-department/ and https://nsakcet.ac.in/pg-department/"
+      ]
+    },
+    {
+      "tag": "courses_offered",
+      "patterns": [
+        "Which courses are offered?",
+        "Programs available at NSAKCET?",
+        "List of courses?",
+        "What branches do you have?",
+        "Available departments?",
+        "Courses for UG and PG?",
+        "BTech branches in the college?",
+        "PG specializations?"
+      ],
+      "responses": [
+        "🎓 **UG (B.Tech) Courses:**\n- Computer Science & Engineering (CSE)\n- CSE - Artificial Intelligence & Machine Learning\n- Electronics & Communication Engineering (ECE)\n- Electrical & Electronics Engineering (EEE)\n- Mechanical Engineering (MECH)\n- Civil Engineering\n\n📘 **PG (M.Tech) Specializations:**\n- CSE\n- Structural Engineering\n\nMore details: https://nsakcet.ac.in/academics/"
+      ]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": [
+        "Is any scholarship available?",
+        "Can I get a scholarship?",
+        "Are there financial aids?",
+        "Does the college support with scholarships?"
+      ],
+      "responses": [
+        "Yes, scholarships are available through government schemes and merit-based programs. Please reach out to the college office for details."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [
+        "I’m not sure what to ask",
+        "Can you help me?",
+        "I need information",
+        "Don’t know where to start"
+      ],
+      "responses": [
+        "No worries! Ask me about fees, admissions, placements, internships, clubs, or anything else related to NSAKCET."
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [],
+      "responses": [
+        "Hmm... I didn’t quite get that. Try asking about courses, fees, or student life.",
+        "I’m not sure I understand. Could you rephrase your question?"
+      ]
+    }
+  ]
+}
